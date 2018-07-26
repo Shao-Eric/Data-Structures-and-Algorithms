@@ -19,7 +19,7 @@
 //     .join('');
 // }
 
-// #3 solution
+// # 3 solution
 function reverse(str) {
   let reversed = '';
   for (let character of str) {

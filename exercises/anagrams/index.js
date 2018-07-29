@@ -7,7 +7,7 @@
 //   anagrams('rail safety', 'fairy tales') --> True
 //   anagrams('RAIL! SAFETY!', 'fairy tales') --> True
 //   anagrams('Hi there', 'Bye there') --> False
-// test
+// test..
 
 function anagrams(stringA, stringB) {}
 

@@ -12,3 +12,6 @@
 function anagrams(stringA, stringB) {}
 
 module.exports = anagrams;
+
+// const word = "HI THERE!!!!!"
+// word.replace(/[^\w]/g,"").toLowerCase()   //this will output hithere

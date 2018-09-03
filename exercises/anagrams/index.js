@@ -12,6 +12,16 @@
 function anagrams(stringA, stringB) {
   const aCharMap = buildCharMap(stringA);
   const bCharMap = buildCharMap(stringB);
+  if (Object.keys(aCharMap).length !== Object.keys(bCharMap).length) {
+    return false;
+  }
+  // iterate array use of, iterate object we use in
+  for (let char in aCharMap) {
+    if (aCharMap[char] !== bCharMap[char]) {
+      return false;
+    }
+  }
+  return true;
 }
 
 function buildCharMap(str) {
@@ -21,7 +31,6 @@ function buildCharMap(str) {
   }
   return charMap;
 }
-
 module.exports = anagrams;
 
 // const word = "HI THERE!!!!!"
